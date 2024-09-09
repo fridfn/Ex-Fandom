@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" class="notranslate">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="fandom.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fandom Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/cb4fc9ae31.css" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+     <div class="title">
+       <img src="Fandom.webp"class="fandom-title"/>
+       <a class="icon"><i class="fa fa-bars"></i></a>
+     </div>
+     </header>
+          <div class="container">
+       <div class="foto">
+         <img src="fubuki.webp" class="photos f"/>
+        </div>
+      <div class="cards">
+       <div class="content-cards">
+         <p class="about mt-40">Character</p>
+         <p class="about">Backstory</p>
+       </div>
+         <p class="names">SHIRAKAMI FUBUKI</p>
+         <p class="name">FUBUKI</p>
+         <p class="description tx">Shirakami Fubuki (白上フブキ) is a female Japanese Virtual Youtuber associated with hololive. She is also <br>part of a unit inside hololive called hololive Gamers.</p>
+      </div>
+     </div>
+          <div class="container">
+       <div class="foto">
+         <img src="kurokami.webp" class="photos k"/>
+        </div>
+      <div class="cards mono">
+       <div class="content-cards">
+         <p class="about mt-40">Character</p>
+         <p class="about">Backstory</p>
+       </div>
+         <p class="names">KUROKAMI FUBUKI</p>
+         <p class="name spc">KUROKAMI</p>
+         <p class="description">Kurokami Fubuki (黒髪フブキ) is a female Japanese Virtual Youtuber associated with hololive. He is also the twin of Shirakami Fubuki's character.</p>
+      </div>
+     </div>
+          <div class="container">
+       <div class="foto">
+         <img src="kobokanaeru.webp" class="photos kb"/>
+        </div>
+      <div class="cards">
+       <div class="content-cards">
+         <p class="about mt-40">Character</p>
+         <p class="about">Backstory</p>
+       </div>
+         <p class="names">KOBOKANAERU</p>
+         <p class="name">KOBO</p>
+         <p class="description txt">Kobo Kanaeru (こぼ・かなえる) is a female Indonesian Virtual YouTuber associated with hololive, debuting as part of its Indonesian (ID) branch third generation of VTubers alongside Vestia Zeta and Kaela Kovalskia.</p>
+      </div>
+     </div>
+          <div class="container">
+       <div class="foto">
+         <img src="kureiji.webp" class="photos o"/>
+        </div>
+      <div class="cards orange">
+       <div class="content-cards">
+         <p class="about mt-40">Character</p>
+         <p class="about">Backstory</p>
+       </div>
+         <p class="names">KUREIJI OLLIE</p>
+         <p class="name">KUREIJI</p>
+         <p class="description">Kureiji Ollie (クレイジー・オリー) is a female Indonesian Virtual YouTuber associated with hololive, debuting as part of its Indonesian (ID) branch second generation of VTubers alongside Anya Melfissa and Pavolia Reine.</p>
+      </div>
+     </div>
+          <div class="container">
+       <div class="foto">
+         <img src="vestiazeta.webp" class="photos z"/>
+        </div>
+      <div class="cards mono">
+       <div class="content-cards">
+         <p class="about mt-40">Character</p>
+         <p class="about">Backstory</p>
+       </div>
+         <p class="names">VESTIA ZETA</p>
+         <p class="name">VESTIA</p>
+         <p class="description">Vestia Zeta (ベスティア・ゼータ) is a female Indonesian
+         Virtual YouTuber associated with hololive, debuting as part of its
+         Indonesian (ID) branch second generation of VTubers alongside Kaela
+         Kovalskia and Kobo Kanaeru.</p>
+      </div>
+     </div>
+          <div class="container">
+       <div class="foto">
+         <img src="moona.webp" class="photos m"/>
+        </div>
+      <div class="cards purple">
+       <div class="content-cards">
+         <p class="about mt-40">Character</p>
+         <p class="about">Backstory</p>
+       </div>
+         <p class="names">MOONA HOSHINOVA</p>
+         <p class="name">MOONA</p>
+         <p class="description txt">Moona Hoshinova (ムーナ・ホシノヴァ) is a female Indonesian Virtual YouTuber associated with hololive, debuting as part of its Indonesian (ID) branch first generation of VTubers alongside Airani Iofifteen and Ayunda Risu.</p>
+      </div>
+     </div>
+          <div class="container">
+       <div class="foto">
+         <img src="sena.webp" class="photos s"/>
+        </div>
+      <div class="cards orange">
+       <div class="content-cards">
+         <p class="about mt-40">Character</p>
+         <p class="about">Backstory</p>
+       </div>
+         <p class="names">NEKOYAMA SENA</p>
+         <p class="name">SENA</p>
+         <p class="description txt">Nekoyama Sena is an Indonesian female Virtual YouTuber affiliated with Yume Reality along with Nemutaka Yuta,Cerys Lobelia,Tsuyu Hortenshia, Ryuuki Tatsuya. Sena debuted on August 26, 2020.</p>
+      </div>
+     </div>
+     
+     <div class="jam-digital-malasngoding">
+      <div class="kotak">
+        <p id="jam"></p>
+      </div>
+      <div class="kotak">
+        <p id="menit"></p>
+      </div>
+      <div class="kotak">
+        <p id="detik"></p>
+      </div>
+     </div>
+     
+     <script>
+	window.setTimeout("waktu()", 1000);
+ 
+	function waktu() {
+		var waktu = new Date();
+		setTimeout("waktu()", 1000);
+		document.getElementById("jam").innerHTML = waktu.getHours();
+		document.getElementById("menit").innerHTML = waktu.getMinutes();
+		document.getElementById("detik").innerHTML = waktu.getSeconds();
+	}
+    </script>
+    
+    <footer>
+     <div class="container">
+       <img src="Fandom.webp" class="fandom-img"/>
+        
+   <!--CODINGAN START EXPLORE PROPERTIES-->
+        <div class="footer">
+           <p class="info">EXPLORE PROPERTIES</p>
+          <div class="link">
+            <li><a href="#">Fandom</a></li>
+            <li><a href="#">Muthead</a></li>
+           <div class="link2">
+             <li><a href="#">Futhead</a></li>
+             <li><a href="#">Fanatical</a></li>
+           </div>
+          </div>
+        </div>
+   <!--CODINGAN END EXPLORE PROPERTIES-->
+      <!--CODINGAN END MEDIA SOCIAL-->
+        <div class="footer">
+          <p class="info">FOLLOW US</p>
+          <div class="social-media">
+            <a class="icon" href="https://www.facebook.com/bayu.an.754"><i class="fab fa-facebook"></i></a>
+            <a class="icon" href="https://www.facebook.com/fridfn_"><i class="fab fa-instagram"></i></a>
+            <a class="icon" href="https://t.me/ShirakamiFubuki7"><i class="fab fa-telegram"></i></a>
+            <a class="icon" href="https://tiktok.com/@frdfnz"><i class="fab fa-tiktok"></i></a>
+           </div>
+         </div>
+      <!--CODINGAN END MEDIA SOCIAL-->
+     <!--INI CODINGAN START OVERVIEW-->
+         <div class="footer">
+           <p class="info">OVERVIEW</p>
+          <div class="link">
+            <li><a href="#">What is Fandom?</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Contact</a></li>
+           <div class="link2">
+             <li><a href="#">Terms Of Use</a></li>
+             <li><a href="#">Privacy Policy</a></li>
+             <li><a href="#">Global Sitemap</a></li>
+             <li><a href="#">Local Sitemap</a></li>
+           </div>
+          </div>
+         </div>
+     <!--INI CODINGAN END OVERVIEW-->
+     <!--INI CODINGAN START COMMUNITY-->
+        <div class="footer">
+           <p class="info">COMMUNITY</p>
+          <div class="link">
+            <li><a href="#">Community Central</a></li>
+            <li><a href="#">Support</a></li>
+           <div class="link2">
+             <li><a href="#">Contact</a></li>
+             <li><a href="#">Help</a></li>
+           </div>
+          </div>
+        </div>
+     <!--INI CODINGAN END COMMUNITY-->
+      </div>
+      <div class="footers">
+          <p>&copy;Copyright 2023 Fandom, ex.</p>
+        </div>
+    </footer>
+  </body>
+</html>

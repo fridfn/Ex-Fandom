@@ -1,0 +1,308 @@
+*, body, html {
+  padding: 0;
+  margin: 0;
+  border-box: box-sizing;
+  font-family: Helvetica;
+}
+
+header {
+  display: flex;
+  background: black;
+  padding-bottom: 70px;
+  flex-direction: column;
+}
+
+.fandom-title {
+  width: 135px;
+  margin-right: auto;
+}
+
+.title {
+  padding: 2.5%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 2px solid #2b3132;
+  animation: RGB 15s infinite;
+}
+
+.text-intro {
+  color: blue;
+  font-size: 19px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  outline-style: none;
+}
+
+.text-info {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+
+.container {
+  padding-top: 23px;
+  padding-bottom: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  border-bottom: 2px solid #2b3132;
+  animation: RGB 8s 4;
+  z-index: 1;
+}
+
+
+@keyframes RGB {
+  0% {
+    border-bottom: 2px solid #2b3132;
+  }
+  20% {
+    border-bottom: 2px solid #ff00d489;
+  }
+  40% {
+    border-bottom: 2px solid #ff003166;
+  }
+  60% {
+    border-bottom: 2px solid #00ff966e;
+  }
+  80% {
+    border-bottom: 2px solid #ffc7006d;
+  }
+  90% {
+    border-bottom: 2px solid #00ff0b6f;
+  }
+}
+
+.content-cards {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.about {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+}
+
+.cards {
+  background-image: url(background-blue.webp);
+  width: 92%;
+  border-radius: 5px;
+  background-size: cover;
+  border: 1px solid #9d00e161;
+  box-shadow: .7px .8px .7px #a500ff;
+}
+/*color background*/
+.orange {
+  background-image: url(background-orange.webp);
+  width: 92%;
+  border-radius: 5px;
+  background-size: cover;
+  border: 1px solid #9d00e161;
+  box-shadow: .7px .8px .7px #e9ff2d;
+}
+.purple {
+  background-image: url(background-purple.webp);
+  width: 92%;
+  border-radius: 5px;
+  background-size: cover;
+  border: 1px solid #9d00e161;
+  box-shadow: .7px .8px .7px #ff35da;}
+.mono {
+  background-image: url(background-mono.webp);
+  width: 92%;
+  border-radius: 5px;
+  background-size: cover;
+  border: 1px solid #9d00e161;
+  box-shadow: .7px .8px .7px #ededed;
+}
+/*color background*/
+
+.name {
+  color: transparent;
+  font-weight: 900;
+  font-size: 62px;
+  padding-left: 15px;
+  -webkit-text-stroke: 1px #fff;
+  letter-spacing: 2.5px;
+}
+
+.names {
+  color: white;
+  font-size: 18px;
+  font-weight: 650;
+  position: absolute;
+  margin-left: 17px;
+  margin-top: 50px;
+}
+
+.description {
+  color: white;
+  font-size: 6.8px;
+  font-weight: 700;
+  margin-right: 30%;
+  margin-left: 17px;
+  margin-bottom: 5px;
+}
+
+.photos {
+  width: 123px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.foto {
+  right: 15px;
+  display: flex;
+  position: absolute;
+}
+
+/* CODINGAN FOOTER */
+
+footer {
+}
+
+.fandom-img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin-left: 15px;
+  margin-right: auto;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+}
+
+.link2 {
+  position: absolute;
+  display: flex;
+  margin-left: 170px;
+  flex-direction: column;
+}
+
+.info {
+  color: white;
+  font-size: 13px;
+  font-weight: 800;
+  padding-bottom: 12px;
+  margin-top: 40px;
+}
+
+li {
+  list-style-type: none;
+  color: white;
+  margin-bottom: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #FFC500;
+  font-size: 13px;
+}
+
+.icon {
+  font-size: 22px;
+  color: white;
+  margin-right: 25px;
+}
+
+.footers {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-family: fantasy;
+  font-weight: 500;
+  padding: 10px;
+  text-align: center;
+}
+
+/*CODINGAN JAM */
+
+
+	.jam-digital-malasngoding {
+		overflow: hidden;
+		display: flex;
+		width: 70px;
+		text-align: center;
+		position: absolute;
+		margin-left: 3%;
+    margin-top: 345px;
+	}
+	.kotak{
+		width: 70px;
+		height: auto;
+		background-color: black;
+	}
+	.jam-digital-malasngoding p {
+		color: #fff;
+		font-weight: 800;
+		font-size: 12px;
+		text-align: center;
+	}
+ 
+
+
+/*INI ADALAH TAMBAHAN STYLE CSS*/
+
+.mt-40 {
+  margin-right: 38px;
+  margin-left: 20px;
+}
+
+.spc {
+  letter-spacing: -1px;
+  font-size: 60px;
+}
+
+.txt {
+  margin-right: 45%;
+}
+.tx {
+  margin-right: 40%;
+}
+
+.f {
+  width: 155px;
+}
+
+.k {
+  width: 130px;
+}
+
+.o {
+  padding-top: 5px;
+}
+
+.z {
+  width: 131px;
+}
+
+.m {
+  margin-top: 35px;
+  width: 150px;
+}
+
+.s {
+  margin-top: 17px;
+  width: 150px;
+}
+
+.kb {
+  width: 175px;
+  padding-top: 22px;
+}
